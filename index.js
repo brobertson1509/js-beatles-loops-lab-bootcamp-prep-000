@@ -27,7 +27,7 @@ return array;
 }
 
 function iLoveTheBeatles (num){
-  var array[];
+  var = array[];
   function incrementVariable() {
     num = 1 + num;
     return num;
