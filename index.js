@@ -17,11 +17,11 @@ return array;
 }
 
 function johnLennonFacts(facts) {
-var array1 = [];
+var array = [];
 let num = 0;
 while (num < facts.length){
   array.push(`${facts[num]}!!!`)
   num ++;
 }
-return array1;
+return array;
 }
