@@ -33,6 +33,6 @@ do {
   array.push("I love the Beatles!");
   num++;
   } while
-  (incrementVariable() < num);
+  (num > 0);
   return array;
 }
