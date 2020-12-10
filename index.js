@@ -28,12 +28,10 @@ return array;
 
 function iLoveTheBeatles (num){
   var array = [];
-  function incrementVariable() {
-    num = 1 + num;
-    return num;
-  }
+
 do {
-  array.push("I love the Beatles!")
+  array.push("I love the Beatles!");
+  num++;
   } while
   (incrementVariable() < num);
   return array;
