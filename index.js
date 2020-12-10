@@ -28,7 +28,11 @@ return array;
 
 function iLoveTheBeatles (num){
   var array = [];
-
+  let i = 0;
+  function incrementVariable() {
+    i = i = 1;
+    return i;
+  }
 do {
   array.push("I love the Beatles!");
   num++;
