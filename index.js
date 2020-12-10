@@ -23,5 +23,5 @@ while (num < facts.length){
   array.push(`${facts[num]} !!!`)
   num ++;
 }
-
+return array1;
 }
