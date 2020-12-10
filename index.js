@@ -1,18 +1,11 @@
 // add solution here
-function theBeatlesPlay(musicians, instruments) {
-  var musicians = [];
+const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
-  function incrementVariable() {
-  let i=0;
-  i=i+1;
-  return i;
+function theBeatlesPlay(musicians, instruments) {
+  var array = [];
+for (let i=0; i < musicians.length; i++){
+  console.log(musicians[${i}] &&)
 }
-do {
-if(num === 0) {
-console.log("I run once regardless.");
-} else if (num === 10){
-console.log("I run once regardless.")
-} while (incrementVariable() < num);
-}
-}
-}
+
+
