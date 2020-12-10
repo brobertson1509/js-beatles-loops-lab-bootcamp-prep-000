@@ -18,10 +18,14 @@ return array;
 
 function johnLennonFacts(facts) {
 var array = [];
-let num = 0;
-while (num < facts.length){
-  array.push(`${facts[num]}!!!`)
-  num ++;
+let i = 0;
+while (i < facts.length){
+  array.push(`${facts[i]}!!!`)
+  i ++;
 }
 return array;
+}
+
+function iLoveTheBeatles (num){
+  
 }
