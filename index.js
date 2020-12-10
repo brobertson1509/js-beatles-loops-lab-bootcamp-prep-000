@@ -28,11 +28,10 @@ return array;
 
 function iLoveTheBeatles (num){
   var array = [];
-
+  
 do {
   array.push("I love the Beatles!");
   num++;
-  } while
-  (num > 0);
+} while (num > 0);
   return array;
 }
