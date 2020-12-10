@@ -16,7 +16,7 @@ for (let i=0; i < musicians.length; i++){
 return array;
 }
 
-function johnLennonFacts(facts){
+function johnLennonFacts(facts) {
 var array1 = [];
 let num = 0;
 while (num < facts.length){
