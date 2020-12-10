@@ -8,3 +8,4 @@ for (let i=0; i < musicians.length; i++){
   console.log(`${musicians[i]} playes ${instruments[i]}`);
 }
 return array;
+}
