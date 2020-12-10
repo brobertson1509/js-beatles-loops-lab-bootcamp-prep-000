@@ -33,7 +33,7 @@ function iLoveTheBeatles (num){
     return num;
   }
 do {
-  console.log("I run once regardless.")
+  push.array("I love the Beatles!")
   } while
   (incrementVariable() < num);
 }
