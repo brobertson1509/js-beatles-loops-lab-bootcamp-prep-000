@@ -5,6 +5,6 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
 for (let i=0; i < musicians.length; i++){
-  console.log(`${musicians[i]} played the ${instruments[i]}`);
+  console.log(`${musicians[i]} playes ${instruments[i]}`);
 }
 return array;
