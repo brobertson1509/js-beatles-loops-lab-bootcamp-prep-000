@@ -16,11 +16,11 @@ for (let i=0; i < musicians.length; i++){
 return array;
 }
 
-function johnLennonFacts(array){
+function johnLennonFacts(facts){
 var array1 = [];
 let num = 0;
 while (num < facts.length){
-  array.push(`${facts[num]} !!!`)
+  array.push(`${facts[num]}!!!`)
   num ++;
 }
 return array1;
