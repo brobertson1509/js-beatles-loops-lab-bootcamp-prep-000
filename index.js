@@ -11,7 +11,7 @@ const facts = [
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
 for (let i=0; i < musicians.length; i++){
-  console.log(`${musicians[i]} playes ${instruments[i]}`);
+  array.push(`${musicians[i]} playes ${instruments[i]}`);
 }
 return array;
 }
