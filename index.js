@@ -6,5 +6,5 @@ function theBeatlesPlay(musicians, instruments) {
   var array = [];
 for (let i=0; i < musicians.length; i++){
   console.log('${musicians[i]} && ${instruments[i]}');
-  return array;
 }
+return array;
