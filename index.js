@@ -36,4 +36,5 @@ do {
   push.array("I love the Beatles!")
   } while
   (incrementVariable() < num);
+  return array;
 }
